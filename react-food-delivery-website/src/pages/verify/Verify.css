@@ -1,0 +1,20 @@
+.verify{
+    min-height: 60vh;
+    display: grid;
+}
+
+.verify .spinner{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #bdbdbd;
+    border-top-color: tomato;
+    place-self: center;
+    animation: rotate 1s infinite;
+}
+
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
